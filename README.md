@@ -24,7 +24,7 @@ This library implements 1-hidden layer MLP and a Hopfield Network from scratch. 
     - Modified sigmoide
     - Derivative
                           
-  2. initialization_functions: Contains a class called "normal" that generates a normal gaussian dstribution with the desire mean and sigma. This class is used for the                                    initialization of the weights of the network. 
+  2. Initialization_functions: Contains a class called "normal" that generates a normal gaussian dstribution with the desire mean and sigma. This class is used for the                                    initialization of the weights of the network. 
   
   3. Mlp_model: Contains a class called MLP to create and train a percepton with one hidden layer. This class includes:
                              
