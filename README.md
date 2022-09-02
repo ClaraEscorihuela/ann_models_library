@@ -5,13 +5,14 @@ This repository aims at showing how to use a library with artificial neural netw
 ### Available files in the models library:
 
   1. activations_functions: Contains a class called "default_activation" with activation functions to apply after each layer of the designed network. Possible activation functions:
-                              * Modified sigmoide
-                              * Derivative
+                              1. Modified sigmoide
+                              2. Derivative
                           
   2. initialization_functions: Contains a class called "normal" that generates a normal gaussian dstribution with the desire mean and sigma. This class is used for the                                    initialization of the weights of the network. 
   
   3. mlp_model: Contains a class called MLP to create and train a percepton with one hidden layer. This class includes:
-                              Arguments:
+                             
+                              1. Arguments:
                               * hidden_nodes: (int) number of nodes in the hidden layer
                               * num_input: (int) dimension of one sample
                               * num_out: (int) dimension output layer 
@@ -19,7 +20,7 @@ This repository aims at showing how to use a library with artificial neural netw
                               * weights (numpy array)
                               * activation: (class) activation functions
                               
-                              Methods:
+                              2. Methods:
                               * prepare_input function
                               * initialize_weights
                               * forwards_pass
@@ -36,11 +37,12 @@ This repository aims at showing how to use a library with artificial neural netw
                               * plot_decision_boundaries: Used in the demo explained above
                               
   4. hopfield_network: Contains a class called HopfieldNetwork to design a Hopfield Network (type of Recurrent Neural Network)
-                              Arguments:
+                              
+                              1. Arguments:
                               * W: (numpy array) weght matrix
                               * positions_to_update: (numpy array) positions to update in the pattern 
                               
-                              Methods:
+                              2. Methods:
                               * train: Calculate the weight matrix from input patterns
                               * update: Update elements from a patern in syncronious or asyncroinious way
                               * recall: Update patern until convergence
