@@ -1,8 +1,10 @@
 # ann_models_library
 
-This repository aims at showing how to use a library with artificial neural networks models build from scratch, as well as how to aply an MLP to find a decision boundary between two classes and how to apply a Hopfield Network. 
+This repository aims at showing how to use a library with artificial neural networks models build from scratch, as well as how to apply a Multi Layer Percepton to find a decision boundary between two classes and how to apply a Hopfield Network for retoring noisy patterns. 
 
-### Available files in the models library:
+### Models library:
+
+Library with the implementation of a percepton with one hidden layer and a Hopfield Network from scratch. Available files in the library:
 
   1. activations_functions: Contains a class called "default_activation" with activation functions to apply after each layer of the designed network. Possible activation functions:
   
