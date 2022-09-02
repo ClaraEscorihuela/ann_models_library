@@ -17,7 +17,7 @@ Clone the repository
 
 ### Models library:
 
-This library implements 1-hidden layer MLP and a Hopfield Network from scratch. Available files in the library are as follows:
+This library implements a 1-hidden layer MLP and a Hopfield Network from scratch. Available files in the library are as follows:
 
   1. Activations_functions: Contains a class called "default_activation" with activation functions to apply after each layer of the designed network. Possible activation functions:
   
