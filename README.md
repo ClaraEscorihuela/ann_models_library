@@ -10,6 +10,9 @@ Installing following dependencies:
 - intertools
 
 #### Installation
+Clone the repository
+
+* https://github.com/ClaraEscorihuela/ann_models_library.git
 
 
 ### Models library:
