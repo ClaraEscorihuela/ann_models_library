@@ -53,10 +53,10 @@ This repository aims at showing how to use a library with artificial neural netw
 The repository contains a jupyter notebook with a short demonstration for the use of the modes library. 
  
 ##### Exercise 1 : Multi Layer Perception 
-The first exercise aims at designing an Percepton feedforward network with one hidden layer. The network must be capable to determine the decision boundary and to differenciate two class samples from their position in a given space. This demo generates samples from two gaussian distributions with different mean and variance, and trains an MLP for classifyin unseen samples from these distributions. This demo also shows how to apply a grid search for finding the best hyperparameters for the model.
+The first exercise aims at designing an Percepton feedforward network with one hidden layer. The network must be capable to determine the decision boundary and to differenciate two class samples from their position in a given space. This demo generates samples from two gaussian distributions with different mean and variance, and trains an MLP for classifying unseen samples from these distributions. This demo also shows how to apply a grid search for finding the best hyperparameters for the model.
  
 ##### Exercise 2 : Hopfield Networks
-The Hopfield Network is one king of recurrent neural networks (RNN). RNNs are characterize by the entrance of their output signals as input signals. One of its more interesting feautres is the associative memory, given a noisy pattern they can restore it to a trained or learned pattern. This demo aims at showing the training and the recall method to learn and restorn the trained patterns. 
+The Hopfield Network is one king of recurrent neural networks (RNN). RNNs are characterize by the entrance of their output signals as input signals. One of its more interesting feautres is the associative memory; meaning that given a noisy pattern they can restore it to a trained or learned pattern. This demo aims at showing the use of the Hebbian rule as well as the syncronious and asyncronious method for the pattern update. 
  
                               
                               
