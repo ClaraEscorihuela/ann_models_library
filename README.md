@@ -3,11 +3,14 @@
 This repository contains code that implements a python library to build artificial neural networks (ANN) from scratch. In particular, the library provides tools to find a decision boundary between two classes using a Multi-layer Percepton and to restored a denoised version of patterns using a Hopfield Network. 
 
 ### Getting startes (only for local usage)
-####Package Requirments
+#### Package Requirments
 
 Installing following dependencies:
 - python = 3.9
 - intertools
+
+#### Installation
+
 
 ### Models library:
 
