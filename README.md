@@ -6,48 +6,48 @@ This repository aims at showing how to use a library with artificial neural netw
 
   1. activations_functions: Contains a class called "default_activation" with activation functions to apply after each layer of the designed network. Possible activation functions:
   
-- Modified sigmoide
-- Derivative
+    - Modified sigmoide
+    - Derivative
                           
   2. initialization_functions: Contains a class called "normal" that generates a normal gaussian dstribution with the desire mean and sigma. This class is used for the                                    initialization of the weights of the network. 
   
   3. mlp_model: Contains a class called MLP to create and train a percepton with one hidden layer. This class includes:
                              
-- Arguments:
-  * hidden_nodes: (int) number of nodes in the hidden layer
-  * num_input: (int) dimension of one sample
-  * num_out: (int) dimension output layer 
-  * learning_rate (float)
-  * weights (numpy array)
-  * activation: (class) activation functions
-                              
- - Methods:
-   * prepare_input function
-   * initialize_weights
-   * forwards_pass
-   * backward_pass
-   * weights_update
-   * backpropagation algorithm
-   * save_weights 
-   * upload_weights
-   * mse (mean square error)
-   * accuracy 
-   * get weights
-   * predict
-   * reset: It returns all arguments of the model to ther initial values
-   * plot_decision_boundaries: Used in the demo explained above
-                              
+    - Arguments:
+      * hidden_nodes: (int) number of nodes in the hidden layer
+      * num_input: (int) dimension of one sample
+      * num_out: (int) dimension output layer 
+      * learning_rate (float)
+      * weights (numpy array)
+      * activation: (class) activation functions
+
+     - Methods:
+       * prepare_input function
+       * initialize_weights
+       * forwards_pass
+       * backward_pass
+       * weights_update
+       * backpropagation algorithm
+       * save_weights 
+       * upload_weights
+       * mse (mean square error)
+       * accuracy 
+       * get weights
+       * predict
+       * reset: It returns all arguments of the model to ther initial values
+       * plot_decision_boundaries: Used in the demo explained above
+
   4. hopfield_network: Contains a class called HopfieldNetwork to design a Hopfield Network (type of Recurrent Neural Network)
                               
-  - Arguments:
-    * W: (numpy array) weght matrix
-    * positions_to_update: (numpy array) positions to update in the pattern 
-                             
-   - Methods:
-    * train: Calculate the weight matrix from input patterns
-    * update: Update elements from a patern in syncronious or asyncroinious way
-    * recall: Update patern until convergence
-    * test_recall: Check if a pattern can converge to a fix value (base pattern)
+    - Arguments:
+      * W: (numpy array) weght matrix
+      * positions_to_update: (numpy array) positions to update in the pattern 
+
+     - Methods:
+      * train: Calculate the weight matrix from input patterns
+      * update: Update elements from a patern in syncronious or asyncroinious way
+      * recall: Update patern until convergence
+      * test_recall: Check if a pattern can converge to a fix value (base pattern)
                               
 ### Demonstration
 The repository contains a jupyter notebook with a short demonstration for the use of the modes library. 
