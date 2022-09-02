@@ -52,7 +52,7 @@ Library with the implementation of a percepton with one hidden layer and a Hopfi
       * test_recall: Check if a pattern can converge to a fix value (base pattern)
                               
 ### Demonstration
-The repository contains a jupyter notebook with a short demonstration for the use of the modes library. 
+The repository contains a jupyter notebook (demo.py) with a short demonstration for the use of the modes library. 
  
 ##### Exercise 1 : Multi Layer Perception 
 The first exercise aims at designing an Percepton feedforward network with one hidden layer. The network must be capable to determine the decision boundary and to differenciate two class samples from their position in a given space. This demo generates samples from two gaussian distributions with different mean and variance, and trains an MLP for classifying unseen samples from these distributions. This demo also shows how to apply a grid search for finding the best hyperparameters for the model.
