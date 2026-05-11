@@ -1,4 +1,4 @@
-# ann_models_library
+# NN models library
 
 This repository contains code that implements a python library to build artificial neural networks (ANN) from scratch. In particular, the library provides tools to find a decision boundary between two classes using a Multi-layer Percepton and to restored a denoised version of patterns using a Hopfield Network. 
 
